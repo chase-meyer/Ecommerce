@@ -1,5 +1,3 @@
-data = 10;
-
 export interface ICar {
   color: string;
   model: string;
@@ -22,3 +20,10 @@ const multiply = (x: number, y: number): number => {
 };
 
 export const cars = [car1, car2];
+
+const styles = {
+  root: {
+    display: "flex",
+    flexDirection: "column",
+  },
+};
