@@ -1,0 +1,21 @@
+{
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    },
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "reactivities_db",
+            "database": "${workspaceFolder:Reactivities}/API/reactivities.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "ecommerce_db",
+            "database": "${workspaceFolder:TelecoEcommerce}/API/ecommerce.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
