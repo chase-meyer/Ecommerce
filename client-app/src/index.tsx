@@ -3,12 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import MaterialApp from "./MaterialDemo";
+// import MaterialApp from "./MaterialDemo";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <MaterialApp />
+    <App />
+    {/* <MaterialApp /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
